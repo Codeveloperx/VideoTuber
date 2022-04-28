@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="sweetalert2.all.min.js"></script>
+    <title>Agregar un video</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="cabecera">
+            <div id="logo">
+                <img src="../images/logo.png" alt="">    
+            </div>
+            <h1><a href="../indesx.html">VideoTube</a></h1>
+        </header>
+            <section>
+                <div class="formulario">
+                    <input required id="nombre" type="text" value="" placeholder="Name">
+                    <input required id="publisher" type="text" placeholder="Publisher">
+                    <input id="views" type="text" placeholder="Views">
+                    <input required id="date" type="date" placeholder="dd/mm/aaaa">
+                    <input required id="poster" type="text" placeholder="Poster">
+                    <select id="select">
+                        <option disabled selected>Categorie</option>
+                        <option value="programacion">Programacion</option>
+                        <option value="musica">Musica</option>
+                        <option value="diseño UX">Diseño UX</option>
+                      </select>
+                      <button id="box_submit">Enviar</button>
+                    </div>
+            </section>
+    </div>
+    <script src="../Script/formulario.js"></script>
+</body>
+</html>
