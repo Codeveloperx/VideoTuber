@@ -5,7 +5,7 @@ export const cards = [
     publisher: "Leonidas Esteban",
     views: "54 vistas",
     date: "18 jul 2021",
-    poster: "../images/pro1.png",
+    poster: "./images/pro1.png",
     categorie: "programacion",
     video: "../videos/pro.mp4"
   },
